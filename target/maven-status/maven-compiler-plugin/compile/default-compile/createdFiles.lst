@@ -1,0 +1,9 @@
+pokemon/modelo/Pokemon.class
+pokemon/modelo/TipoElemental.class
+pokemon/treinador/Pokedex.class
+pokemon/modelo/PokemonFogo.class
+pokemon/treinador/Treinador.class
+pokemon/batalha/Batalha.class
+pokemon/modelo/PokemonAgua.class
+pokemon/modelo/PokemonPlanta.class
+pokemon/Main.class
