@@ -1,0 +1,4 @@
+=== CAPTURA ===
+Selvagem: Bulbasaur [PLANTA] HP=30/100
+Chance calculada: 74%
+Exemplo de execução: Captura realizada!

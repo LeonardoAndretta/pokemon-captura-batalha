@@ -1,0 +1,5 @@
+=== BATALHA ===
+Turno 1: Charmander atacou Bulbasaur e causou 50 de dano. HP de Bulbasaur: 50
+Turno 2: Bulbasaur atacou Charmander e causou 25 de dano. HP de Charmander: 75
+Turno 3: Charmander atacou Bulbasaur e causou 50 de dano. HP de Bulbasaur: 0
+Vencedor: Charmander
