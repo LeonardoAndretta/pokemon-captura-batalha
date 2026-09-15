@@ -1,17 +1,28 @@
-# Pokémon — Captura e Batalha
+# Pokemon - Captura e Batalha
 
-Projeto Java de Programação Orientada a Objetos.
+Projeto Java de Programacao Orientada a Objetos com interface grafica Swing.
 
-## Executar
-Compile a pasta `src` em uma IDE Java 17+ e execute `pokemon.Main`.
+## Requisitos
+- JDK 17
+- Maven 3.8+ (para testes)
 
-## Testes
-Com Maven instalado: `mvn test`. O projeto possui 9 testes JUnit 5.
+## Como executar pela IDE
+Abra o projeto, localize `src/pokemon/Main.java` e execute o metodo `main`.
+Uma janela grafica sera aberta para escolher o Pokemon inicial, batalhar, capturar Pokemon, consultar a equipe e a Pokedex.
 
-## Estrutura
-- `Pokemon`: classe base abstrata.
-- `PokemonFogo`, `PokemonAgua`, `PokemonPlanta`: subclasses polimórficas.
-- `TipoElemental`: centraliza a relação de vantagens.
-- `Treinador`: equipe de até 6 e captura.
-- `Pokedex`: registra sem duplicar.
-- `Batalha`: batalha 1x1 por turnos.
+## Como testar
+```bash
+mvn test
+```
+
+## Funcionalidades
+- Interface grafica jogavel em Java Swing
+- Escolha de Pokemon inicial
+- Encontros aleatorios
+- Batalha 1x1 por turnos
+- Vantagem elemental: Fogo > Planta, Planta > Agua, Agua > Fogo
+- Captura com chance influenciada pela vida restante
+- Equipe com ate 6 Pokemon
+- Pokedex sem registros duplicados
+- Cura da equipe e troca do Pokemon ativo
+- Testes JUnit

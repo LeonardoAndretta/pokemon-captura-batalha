@@ -33,6 +33,10 @@ public abstract class Pokemon {
         if (quantidade > 0) experiencia += quantidade;
     }
 
+    public void restaurarVida() {
+        vida = vidaMaxima;
+    }
+
     protected int danoComVantagem(Pokemon alvo) {
         return tipo.temVantagemSobre(alvo.getTipo()) ? ataque * 2 : ataque;
     }
